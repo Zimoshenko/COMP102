@@ -1,0 +1,25 @@
+#BlueJ package file
+objectbench.height=76
+objectbench.width=672
+package.editor.height=347
+package.editor.width=574
+package.editor.x=59
+package.editor.y=75
+package.numDependencies=0
+package.numTargets=1
+package.showExtends=true
+package.showUses=true
+project.charset=windows-1252
+target1.editor.height=717
+target1.editor.width=919
+target1.editor.x=182
+target1.editor.y=23
+target1.height=50
+target1.name=DateValidator
+target1.naviview.expanded=true
+target1.showInterface=false
+target1.type=ClassTarget
+target1.typeParameters=
+target1.width=120
+target1.x=70
+target1.y=10
