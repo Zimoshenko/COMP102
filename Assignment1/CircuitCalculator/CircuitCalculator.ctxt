@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CircuitCalculator()
+comment0.text=Constructor,\ sets\ up\ the\ user\ interface
+comment1.params=
+comment1.target=void\ calculateCircuitCore()
+comment1.text=\ Calculates\ and\ prints\ the\ following\ properties\ of\ a\ voltage\ divider\ circuit\:\r\n\ \ \ output\ voltage,\ current,\ power,\r\n\ \ \ supply\ current\ and\ power\r\n\ \ \ efficiency\ of\ circuit\r\n\ \ Asks\ the\ user\ for\ the\ supply\ voltage,\ the\ resistors\ R1\ and\ R2,\ and\ the\ resistance\ of\ the\ load.\r\n
+comment2.params=
+comment2.target=void\ calculateCircuitCompletion()
+comment2.text=\ \r\n\ \ \r\n
+comment3.params=
+comment3.target=void\ calculateCircuitChallenge()
+numComments=4

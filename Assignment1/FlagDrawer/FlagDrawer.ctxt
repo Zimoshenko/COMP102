@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=FlagDrawer()
+comment0.text=Constructor,\ sets\ up\ the\ user\ interface
+comment1.params=
+comment1.target=void\ doDenmarkFlag()
+comment1.text=\r\n\ Core\:\ The\ flag\ for\ Denmark\r\n
+comment2.params=width
+comment2.target=void\ drawDenmarkFlag(double)
+comment3.params=
+comment3.target=void\ doGreeceFlag()
+comment3.text=\r\n\ Core\:\ The\ flag\ for\ Greece\r\n
+comment4.params=width
+comment4.target=void\ drawGreeceFlag(double)
+comment5.params=
+comment5.target=void\ doPacmanFlag()
+comment5.text=\r\n\ Completion\:\ pacman\r\n\ A\ red\ pacman\ on\ a\ black\ background\ chasing\ blue,\ green,\ and\ white\ dots.\r\n
+comment6.params=width
+comment6.target=void\ drawPacmanFlag(double)
+comment7.params=
+comment7.target=void\ doChinaFlag()
+comment7.text=\r\n\ Challenge\:\ China\r\n\ Five\ yellow\ stars\ on\ a\ red\ background\r\n
+numComments=8

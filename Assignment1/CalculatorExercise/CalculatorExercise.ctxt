@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CalculatorExercise()
+comment0.text=Constructor\:\ set\ up\ the\ user\ interface\ (already\ written\ for\ you)
+comment1.params=
+comment1.target=void\ doMilesToKilometers()
+comment1.text=\r\n\ \ \ Ask\ for\ miles\ and\ convert\ to\ kilometers\r\n
+comment2.params=
+comment2.target=void\ doTriangleArea()
+comment2.text=\r\n\ Ask\ for\ length\ of\ base\ and\ height,\ then\ calculate\ area\ of\ triangle\r\n
+comment3.params=
+comment3.target=void\ doGramsToOunces()
+comment3.text=\r\n\ Ask\ for\ grams\ then\ convert\ to\ ounces\r\n
+comment4.params=
+comment4.target=void\ doSurfaceAreaOfSphere()
+comment4.text=\r\n\ Ask\ for\ radius\ then\ compute\ surface\ of\ a\ sphere\r\n
+comment5.params=
+comment5.target=void\ doKelvinToCelsius()
+comment5.text=\r\n\ Ask\ for\ temperature\ in\ Kelvin\ then\ convert\ to\ Celsius\r\n
+comment6.params=
+comment6.target=void\ doCostOfPeppers()
+comment6.text=\r\n\ Ask\ how\ many\ peppers\ and\ cost\ per\ pepper,\ then\ compute\ total\ cost\r\n
+numComments=7
