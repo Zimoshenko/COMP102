@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=x\ y\ col
+comment0.target=PartyBalloon(double,\ double,\ java.awt.Color)
+comment0.text=\ Constructor\:\ passed\ the\ intial\ position\ and\ color.\r\n\ Initialises\ the\ fields\r\n
+comment1.params=
+comment1.target=void\ draw()
+comment1.text=\ draw\ method\ (no\ parameters)\:\r\n\ draws\ the\ balloon\ at\ its\ current\ position,\ of\ the\ right\ colour.\r\n
+comment2.params=
+comment2.target=void\ riseLeft()
+comment2.text=\ riseLeft\ method\ (no\ parameters)\:\r\n\ changes\ the\ position\ of\ the\ balloon\ up\ and\ to\ the\ left\r\n\ Does\ not\ erase\ or\ redraw\!\!\r\n
+comment3.params=
+comment3.target=void\ riseRight()
+comment3.text=\ riseRight\ method\ (no\ parameters)\:\r\n\ Makes\ balloon\ move\ up\ and\ to\ the\ right\r\n\ Does\ not\ erase\ or\ redraw\r\n
+numComments=4

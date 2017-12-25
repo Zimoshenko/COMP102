@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=BouncingBall
+comment0.text=\ BouncingBall\ represents\ a\ ball\ that\ falls\ towards\ the\ ground\ and\ bounces\ up\ again.\r\n\ \ Each\ time\ the\ move()\ method\ is\ called,\ it\ will\ take\ one\ step.\ \ \r\n\ \ The\ ball\ must\ store\ its\ current\ position\ and\ the\ state,\ and\ the\ canvas\ it\ is\ drawn\ on.\r\n\ \ The\ state\ must\ include\ the\ current\ position,\ and\ its\ current\ speed\r\n\ \ (ie,\ the\ size\ of\ step\ in\ horizontal\ and\ vertical\ directions\ that\ it\ will\ take\ in\ each\ move)\ \r\n\ \ For\ the\ extension,\ it\ needs\ to\ store\ its\ colour,\ size,\ or\ whatever\ you\ choose\ to\ change\ each\ time.\r\n\r\n\ \ It\ has\ a\ method\ to\ make\ it\ move\ from\ its\ current\ position.\r\n\ \ For\ the\ extension,\ every\ time\ it\ moves,\ it\ will\ change\ its\ size,\r\n\ \ shape,\ or\ colour\ a\ little\r\n
+comment1.params=x\ h\ sp
+comment1.target=BouncingBall(double,\ double,\ double)
+comment1.text=\r\n\ Construct\ a\ new\ BouncingBall\ object.\r\n\ Parameters\ are\ the\ initial\ horizontal\ position\ and\ height\ above\ the\ ground,\ and\r\n\ the\ initial\ speed\ (ie,\ the\ horizontal\ step\ size).\ Positive\ is\ to\ the\ right\r\n\ Stores\ the\ parameters\ into\ fields,\r\n\ and\ initialises\ the\ other\ fields.\ \r\n
+comment2.params=
+comment2.target=void\ move()
+comment2.text=\ Move\ the\ shape\ one\ step\:\r\n\ Change\ its\ height\ and\ x\ position\ using\ the\ vertical\ and\ horizonal\ steps\r\n\ Decrease\ the\ vertical\ step\ size\ by\ 0.3\ (this\ is\ the\ effect\ of\ gravity)\r\n\ If\ it\ has\ gone\ below\ the\ floor,\ then\ "bounce"\:\r\n\ \ \ sets\ its\ height\ so\ the\ ball\ is\ on\ the\ floor,\ and\r\n\ \ \ invert\ the\ vertical\ step\ size\ (to\ make\ it\ go\ upwards).\r\n\ \ \ Completion\:\ reduce\ the\ vertical\ step\ size\ by\ some\ amount\ to\ represent\ the\ lost\ energy\r\n\ \ \ \ \ \ \ (even\ better,\ give\ each\ ball\ a\ different\ bounciness)\r\n\ DO\ NOT\ ERASE\ OR\ DRAW\ THE\ BALL\!\!\!\ -\ just\ change\ the\ values\ in\ the\ fields.\ \r\n
+comment3.params=
+comment3.target=void\ draw()
+comment3.text=\r\n\ Draw\ the\ ball\ in\ its\ current\ position.\r\n\ Note\ that\ you\ will\ need\ to\ convert\ from\ the\ height\ of\ the\ ball\ above\ the\ floor\ into\r\n\ a\ distance\ down\ from\ the\ top\ of\ the\ screen.\ \r\n
+comment4.params=
+comment4.target=void\ bounceHoriz()
+comment4.text=\r\n\ Make\ the\ ball\ bounce\ in\ the\ horizontal\ direction\ by\r\n\ moving\ it\ backwards\ one\ step\ and\ then\ reversing\ its\ horizontal\ speed\r\n
+comment5.params=
+comment5.target=double\ getX()
+comment5.text=Return\ the\ current\ x\ position\ of\ the\ ball
+comment6.params=
+comment6.target=void\ test()
+comment6.text=\ A\ method\ to\ help\ test\ your\ code\:\ Use\ right\ click\ on\ the\ BouncingBall\ class\ in\ BlueJ\r\n
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8

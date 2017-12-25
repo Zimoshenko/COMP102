@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ObjectsExercise()
+comment0.text=Constructor\ to\ set\ up\ the\ user\ interface
+comment1.params=
+comment1.target=void\ doPartyBalloon()
+comment1.text=Makes\ a\ pair\ of\ PartyBalloon\ objects\ and\ makes\ them\ fly\ into\ the\ sky
+comment2.params=
+comment2.target=void\ drawGround()
+comment2.text=Draw\ the\ ground
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment3.text=Calls\ the\ constructor
+numComments=4

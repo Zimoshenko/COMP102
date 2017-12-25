@@ -1,0 +1,82 @@
+/* Code for COMP 102 Assignment 3 2008
+ * Name:
+ * Usercode:
+ * ID:
+ */
+
+import java.util.*;
+import comp100.*;
+import javax.swing.*;
+import java.awt.event.*;
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.io.*;
+
+/** Program to create simple animated cartoon strips using the
+ *  CartoonFigure class.  
+ */
+
+public class CartoonStory{
+
+  /** First creates a JFrame window and a DrawingCanvas.
+   *  Then creates two cartoon figures and places them on the window.
+   *  Then animates them according to a fixed script by calling a series
+   *  of methods on the figures.
+   */
+  public void playStory(){
+    JFrame frame = new JFrame("Jim and Jan");
+    frame.setSize(600, 500);
+    DrawingCanvas canvas = new DrawingCanvas();
+    frame.getContentPane().add(canvas, BorderLayout.CENTER);
+    frame.setVisible(true);
+
+    // YOUR CODE HERE
+    CartoonFigure cf1 = new CartoonFigure(canvas, "yellow", 150, 100);
+
+    cf1.turnRight();
+    cf1.turnLeft();
+    cf1.frown();
+    cf1.talk("Is anyone here?");
+
+    CartoonFigure cf2 = new CartoonFigure(canvas, "blue", 450, 100);
+    cf2.smile();
+    cf2.turnLeft();
+    cf2.talk("Hello");
+    cf1.turnRight();
+    cf1.smile();
+    cf1.talk("Hi there, I'm Jim");
+    cf2.talk("I'm Jan");
+    cf2.move(50);
+    cf1.turnLeft();
+    cf1.frown();
+    cf1.turnRight();
+    cf1.talk("What's that thing?");
+    cf2.talk("Just my robot mower!");
+    cf1.talk("Don't let it mow me!");
+    cf1.turnLeft();
+    cf1.talk("I'm off");
+    cf1.move(80);
+    cf1.move(80);
+    cf1.move(80);
+    cf2.talk("Bye!");
+    cf1.turnRight();
+    cf2.talk("Come on Robby");
+    cf2.move(50);
+    cf2.move(50);
+    cf2.move(50);
+    cf2.move(50);
+    cf2.move(50);
+    cf2.move(50);
+    cf2.move(50);
+    // END OF YOUR CODE
+
+    // Delete the window
+    frame.dispose();
+  }
+
+  public static void main(String[] arguments){
+    CartoonStory cs = new CartoonStory();
+    cs.playStory();
+  }	
+
+}

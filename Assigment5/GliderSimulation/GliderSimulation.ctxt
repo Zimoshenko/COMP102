@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=GliderSimulation()
+comment1.params=
+comment1.target=void\ throwGliders()
+comment2.params=
+comment2.target=Glider\ makeNewGlider()
+comment2.text=Helper\ method\ that\ makes\ a\ new\ Glider\ with\ random\ initial\ values
+comment3.params=
+comment3.target=void\ clearRoom()
+comment4.params=
+comment4.target=void\ drawRoom()
+comment5.params=v
+comment5.target=void\ setDelay(double)
+comment6.params=
+comment6.target=void\ Fast()
+comment7.params=
+comment7.target=void\ Slow()
+comment8.params=arguments
+comment8.target=void\ main(java.lang.String[])
+comment8.text=Create\ a\ new\ Simulation\ object
+numComments=9

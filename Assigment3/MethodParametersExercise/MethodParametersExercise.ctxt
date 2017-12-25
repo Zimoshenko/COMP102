@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MethodParametersExercise()
+comment0.text=Constructor\:\ set\ up\ the\ user\ interface\ (already\ written\ for\ you)
+comment1.params=
+comment1.target=void\ doNameTags()
+comment1.text=\ Prints\ out\ a\ series\ of\ nametags\ for\ workshop\ participants.\r\n\ \ Each\ nametag\ has\ the\ participant's\ name\ and\ workshop\ ID\ number.\r\n
+comment2.params=name\ num
+comment2.target=void\ printNameTag(java.lang.String,\ int)
+comment2.text=\ Prints\ a\ nametag\ (as\ in\ Lab\ Exercise\ 0)\r\n\ \ A\ nametag\ has\ the\ participant's\ name\ and\ workshop\ ID\ number.\r\n
+comment3.params=
+comment3.target=void\ doBottleSong()
+comment4.params=a
+comment4.target=void\ bottleSongVerse(int)
+comment4.text=\ bottleSongVerse\r\n\ The\ verses\ uses\ the\ number\ of\ bottles\ remaining\r\n
+comment5.params=
+comment5.target=void\ doSignalZeroFlag()
+comment5.text=\ Draws\ the\ flag\ used\ by\ the\ US\ navy\ to\ signal\ the\ value\ "zero"\:\r\n\ \ \ \ a\ white\ square\ with\ five\ little\ blue\ crosses\ on\ it\ (laid\ out\ like\ the\r\n\ \ \ \ dots\ on\ the\ "5"\ side\ of\ ordinary\ dice).\r\n\ \ \ \ See\ http\://www.navy.mil/navydata/communications/flags/num0.gif\r\n
+comment6.params=xo\ yo\ s\ t
+comment6.target=void\ drawCross(double,\ double,\ double,\ double)
+comment6.text=drawCross\ is\ passed\ the\ position\ of\ the\ centre\ of\ the\ cross\ and\ its\ dimensions
+numComments=7

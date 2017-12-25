@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Bouncer
+comment0.text=\ Runs\ a\ simulation\ of\ two\ balls\ bouncing.\r\ncreates\ two\ new\ BouncingBall\ objects,\r\nrepeatedly\ makes\ the\ ball\ move.\r\nIf\ a\ ball\ hits\ the\ left\ wall,\ it\ makes\ the\ ball\ bounce.\r\nif\ a\ ball\ hits\ the\ right\ wall,\ it\ makes\ a\ new\ ball\ in\ its\ place.\r\n
+comment1.params=
+comment1.target=Bouncer()
+comment2.params=
+comment2.target=void\ bounceTwoBalls()
+comment3.params=
+comment3.target=BouncingBall\ makeNewBall()
+comment3.text=Helper\ method\ that\ makes\ a\ new\ BouncingBall\ with\ random\ initial\ values
+comment4.params=
+comment4.target=void\ drawRoom()
+comment5.params=v
+comment5.target=void\ setSpeed(double)
+comment6.params=arguments
+comment6.target=void\ main(java.lang.String[])
+comment6.text=Create\ a\ new\ Bouncer\ object\ and\ call\ bounceAround
+numComments=7

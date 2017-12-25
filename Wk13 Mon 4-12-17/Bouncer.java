@@ -1,0 +1,97 @@
+
+/* Code for COMP102 
+ * Name:
+ * Usercode:
+ * ID:
+ */
+
+import ecs100.*;
+import java.awt.Color;
+
+/** Runs a simulation of two balls bouncing.
+creates two new BouncingBall objects,
+repeatedly makes the ball move.
+If a ball hits the left wall, it makes the ball bounce.
+if a ball hits the right wall, it makes a new ball in its place.
+ */
+
+public class Bouncer{
+
+    public static final int FLOOR = 450;   // ground level.
+    public static final int RIGHT = 600;    // the right edge where the balls disappear
+
+    public Bouncer(){
+        UI.addButton("Start", this::bounceTwoBalls);
+        UI.addSlider("Speed", 1, 40, 1, this::setSpeed);
+        UI.addButton("Quit", UI::quit);
+        UI.setDivider(0.0); // hide the text area
+        this.drawRoom();    // draw the room.
+    }
+
+    private int delay = 40;
+
+    public void bounceTwoBalls(){
+        UI.setImmediateRepaint(false);       // makes the animation smoother.
+
+        BouncingBall ballA = this.makeNewBall();
+        BouncingBall ballB = this.makeNewBall();
+        ballA.draw();
+        ballB.draw();
+
+        while (true){
+            // make each ball move
+            ballA.move();
+            ballB.move();
+
+	    // redraw the balls             
+            UI.clearGraphics();   
+            ballA.draw();
+            ballB.draw();
+            this.drawRoom();
+
+            UI.repaintGraphics();
+            UI.sleep(delay);
+
+            // Make the balls bounce or disappear
+            if (ballA.getX() <= 0) {         // if at left edge, bounce back
+                ballA.bounceHoriz();	     
+            }
+            if (ballB.getX() <= 0) {
+                ballB.bounceHoriz();	     
+            }
+            if (ballA.getX()>=RIGHT || ballA.getX() < -20){   // at right edge, replace by a new ball
+                ballA = this.makeNewBall();  
+            }
+            if (ballB.getX() >= RIGHT || ballB.getX() < -20){ // at right edge, replace by a new ball
+                ballB = this.makeNewBall();
+            }
+
+        }
+    }
+
+    /** Helper method that makes a new BouncingBall with random initial values */
+    public BouncingBall makeNewBall(){
+        double initHeight = 50 + Math.random()*(FLOOR-50); // random height between 100 and 400.
+        double xSpeed = 1 + Math.random()*4;       // random step size between 1 and 5.
+        if (Math.random()<0.5){xSpeed = -xSpeed;}
+        return new BouncingBall(RIGHT/2, initHeight, xSpeed);
+    }	
+
+    public void drawRoom(){
+        UI.setColor(Color.blue);
+        UI.fillRect(0, FLOOR, RIGHT+30, 20);    // the ground
+        UI.setColor(Color.lightGray);
+        UI.fillRect(RIGHT, 50, 30, FLOOR-50);    // the RHS wall
+        UI.fillRect(0, 50, 15, FLOOR-50);    // the LHS wall
+    }
+
+    public void setSpeed(double v){this.delay = 41-(int)v;}
+
+
+    // Main
+    /** Create a new Bouncer object and call bounceAround */
+    public static void main(String[] arguments){
+        Bouncer bouncer = new Bouncer();
+    }	
+
+}

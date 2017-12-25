@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=c\ image\ x\ y
+comment0.target=CartoonFigure(DrawingCanvas,\ String,\ int,\ int)
+comment0.text=Constructor\ requires\ the\ DrawingCanvas\ that\ the\ figure\ will\ be\ drawn\ on,\nthe\ directory\ name\ where\ the\ images\ are,\nand\ the\ coordinates\ (left,\ top)\ of\ where\ it\ should\ be\ placed\ \n
+comment1.target=void\ turnLeft()
+comment1.text=makes\ the\ CartoonFigure\ turn\ to\ the\ left\ \n
+comment2.target=void\ turnRight()
+comment2.text=makes\ the\ CartoonFigure\ turn\ to\ the\ right\ \n
+comment3.target=void\ smile()
+comment3.text=makes\ the\ CartoonFigure\ smile\ \n
+comment4.target=void\ frown()
+comment4.text=makes\ the\ CartoonFigure\ frown\ \n
+comment5.params=dist
+comment5.target=void\ move(int)
+comment5.text=move\ the\ CartoonFigure\ in\ the\ direction\ it\ is\ facing\ \n
+comment6.params=words
+comment6.target=void\ talk(String)
+comment6.text=makes\ the\ CartoonFigure\ say\ something\ in\ a\ speech\ bubble\ \n
+comment7.target=void\ erase()
+comment7.text=Helper\ method\ that\ erases\ the\ CartoonFigure\ \nAll\ the\ public\ methods\ that\ change\ the\ figure\ call\ erase\ first\ \n
+comment8.target=void\ draw()
+comment8.text=Helper\ method\ that\ draws\ the\ CartoonFigure\nAll\ the\ public\ methods\ that\ change\ the\ figure\ call\ draw.\nThe\ positions\ of\ the\ eyes\ and\ mouth\ depend\ on\ the\ current\ndirection\ of\ the\ figure\ \n
+numComments=9

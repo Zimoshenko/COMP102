@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=StarExercise()
+comment0.text=\ Set\ up\ the\ user\ interface\:\ set\ mouse\ listener\ and\ buttons.\r\n\ \ "Clear"\ should\ clearing\ the\ graphics\ window.\r\n\ \ "Set\ Center"\ and\ "Set\ Points"\ do\ not\ draw\ anything.\ They\ only\ record\ what\ mode\r\n\ \ the\ user\ is\ now\ in\ -\ choosing\ a\ center\ point\ or\ not.\r\n
+comment1.params=
+comment1.target=void\ doSetCenter()
+comment2.params=
+comment2.target=void\ doSetColor()
+comment3.params=
+comment3.target=void\ doSetPoints()
+comment4.params=action\ x\ y
+comment4.target=void\ doMouse(java.lang.String,\ double,\ double)
+comment4.text=\ Respond\ to\ mouse\ released\ events.\r\n\ If\ mode\ is\ setting\ the\ center,\ then\ remember\ the\ position\ and\ draw\ a\ small\r\n\ circle\ at\ the\ point.\r\n\ Othewise,\ draw\ a\ line\ from\ the\ current\ center\ to\ this\ point\r\n
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6

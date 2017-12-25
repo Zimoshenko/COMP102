@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=
+comment0.target=WordsExercise()
+comment0.text=\ Set\ up\ the\ user\ interface\:\ set\ mouse\ listener,\ textfield\ and\ buttons.\r\n
+comment1.params=v
+comment1.target=void\ doSetWord(java.lang.String)
+comment2.params=
+comment2.target=void\ setColor()
+comment2.text=Set\ the\ UI\ color\ to\ the\ value\ chosen\ by\ the\ user
+comment3.params=
+comment3.target=void\ setSize1()
+comment4.params=
+comment4.target=void\ setSize2()
+comment5.params=action\ x\ y
+comment5.target=void\ doMouse(java.lang.String,\ double,\ double)
+comment5.text=\ Respond\ to\ mouse\ released\ events.\r\n\ Draw\ the\ current\ word\ If\ currently\ choosing\ a\ center,\ then\ remember\ the\ position\ and\ draw\ a\ small\r\n\ \ \ \ circle\ at\ the\ point.\r\n\ \ \ \ Othewise,\ draw\ a\ line\ from\ the\ current\ center\ to\ this\ point\r\n
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7

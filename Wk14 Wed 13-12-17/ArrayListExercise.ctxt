@@ -1,0 +1,29 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ArrayListExercise()
+comment0.text=\r\n\ Constructor\ to\ set\ up\ an\ interface\ with\ buttons\ to\ call\ all\ the\ methods\r\n
+comment1.params=
+comment1.target=void\ plotNumbers()
+comment1.text=\r\n\ Reads\ a\ sequence\ of\ numbers\ from\ a\ file\ into\ an\ ArrayList\r\n\ Then\ plots\ the\ numbers\ as\ a\ sequence\ of\ rectangles\ of\ width\ \=\ 5\ and\r\n\ height\ \=\ the\ number\ being\ plotted,\r\n\ Note\:\ you\ must\ read\ all\ the\ numbers\ before\ plottin\ any\ of\ them.\r\n\ Test\ on\ numbers1.txt\r\n
+comment2.params=
+comment2.target=void\ readAndReverse()
+comment2.text=\ \r\n\ Asks\ the\ user\ for\ a\ file,\ and\ reads\ each\ token\ from\ the\ file,\ storing\r\n\ \ \ them\ in\ an\ ArrayList.\r\n\ It\ prints\ out\ the\ number\ of\ tokens\ it\ read\ and\ \r\n\ \ \ then\ prints\ the\ tokens\ in\ reverse\ order.\r\n\ Test\ on\ a-story.txt\ and\ b-story.txt\r\n
+comment3.params=
+comment3.target=void\ plotColoredNumbers()
+comment3.text=\r\n\ Reads\ a\ sequence\ of\ numbers\ from\ a\ file\ into\ an\ ArrayList\r\n\ Finds\ the\ number\ half\ way\ through\ the\ sequence\ of\ numbers\r\n\ [if\ the\ size\ of\ the\ list\ is\ n,\ the\ half\ way\ number\ is\ at\ index\ (n-1)/2\ ]\r\n\ Then\ plots\ the\ numbers\ as\ a\ sequence\ of\ colored\ rectangles\ of\ width\ \=\ 5\ and\r\n\ height\ \=\ the\ number\ being\ plotted.\ \r\n\ The\ color\ is\r\n\ \ \ \ green\ if\ the\ number\ is\ less\ than\ the\ middle\ number,\r\n\ \ \ \ black\ if\ it\ is\ equal\ to\ the\ middle\ number,\ \r\n\ \ \ \ red\ if\ it\ is\ larger\ than\ the\ middle\ number.\r\n\ Note\:\ it\ has\ to\ read\ all\ the\ numbers\ before\ it\ can\ plot\ any\ of\ them.\r\n\r\n\ Use\ the\ code\ from\ plotNumbers\ as\ a\ starting\ point.\r\n
+comment4.params=
+comment4.target=void\ printDifferences()
+comment4.text=\r\n\ Reads\ a\ sequence\ of\ numbers\ from\ a\ file\ into\ an\ ArrayList,\r\n\ then\ prints\ out\ the\ differences\ between\ adjacent\ values\r\n\ eg,\ if\ the\ list\ is\ \ [4,\ 7,\ 12,\ 8],\ it\ will\ print\ 3\ 5\ -4\r\n\ You\ can\ use\ the\ code\ for\ plotNumbers\ as\ a\ starting\ point.\r\n\ Test\ on\ numbers2.txt\r\n
+comment5.params=
+comment5.target=void\ sieve()
+comment5.text=\ CHANGE\ THIS\ METHOD\r\n\ Creates\ a\ list\ of\ integers,\ and\ adds\ each\ number\ from\ 1\ to\ 100\ to\ the\ list.\r\n\ Prints\ them\ out.\r\n\ Then\ repeatedly\ asks\ the\ user\ for\ a\ number,\ and\ removes\ all\ multiples\ of\ that\r\n\ number\ (except\ for\ the\ number\ itself)\ from\ the\ list,\ and\ prints\ this\ list\ out\ again.\r\n\ For\ example,\ if\ the\ user\ selects\ 5,\ it\ will\ remove\ 10,\ 15,\ 20,\ 25,\ 30,\ etc\ from\ the\ list\r\n\ It\ should\ quit\ asking\ when\ the\ user\ selects\ 0.\r\n\ Hints\:\r\n\ \ \ \ you\ should\ work\ backwards\ down\ the\ list\ to\ remove\ multiples,\ not\ forwards.\r\n\ \ \ \ if\ m\ is\ a\ multiple\ of\ n,\ then\ m%n\ \=\=\ 0\ \ (the\ remainder)\ \r\n
+comment6.params=
+comment6.target=void\ showFile()
+comment6.text=\r\n\ Utility\ method\ to\ list\ the\ contents\ of\ a\ file.\r\n
+comment7.params=
+comment7.target=void\ showFiles()
+comment8.params=fn
+comment8.target=void\ showFile(java.lang.String)
+comment9.params=args
+comment9.target=void\ main(java.lang.String[])
+numComments=10

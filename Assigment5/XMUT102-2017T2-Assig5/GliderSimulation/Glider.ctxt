@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.params=ht\ sp
+comment0.target=Glider(double,\ double)
+comment0.text=\r\n\ Construct\ a\ new\ Glider\ object.\r\n\ Parameters\ are\r\n\ \ -\ the\ initial\ height\ above\ the\ ground,\ and\r\n\ \ -\ the\ initial\ speed\ to\ the\ right\r\n\ Note,\ all\ gliders\ start\ at\ horizontal\ position\ 0\r\n\ Stores\ the\ parameters\ into\ fields,\r\n
+comment1.params=
+comment1.target=void\ move()
+comment1.text=\ Move\ the\ glider\ one\ step\:\r\n\ \ -\ If\ its\ height\ is\ 0,\ then\ it\ cannot\ change\ its\ position\ at\ all\r\n\ \ -\ Otherwise,\ it\ will\ move\ forward\ by\ the\ amount\ of\ its\ speed.\r\n\ \ \ \ -\ If\ its\ speed\ equals\ MID_SPEED,\ then\ it\ doesn't\ rise\ or\ fall.\r\n\ \ \ \ -\ If\ it\ is\ going\ slower\ than\ MID_SPEED,\ then\ it\ will\ fall\ towards\ the\ floor.\r\n\ \ \ \ -\ If\ it\ is\ going\ faster\ than\ MID_SPEED,\ then\ it\ will\ rise\ upwards\r\n\ \ The\ faster\ it\ is\ going,\ the\ faster\ it\ should\ rise\r\n\ DO\ NOT\ REDRAW\ THE\ GLIDER\!\!\!\r\n
+comment2.params=
+comment2.target=void\ draw()
+comment2.text=\r\n\ Draw\ the\ glider\ in\ its\ current\ position.\r\n\ Use\ \ UI.drawImage("glider.png",\ .....)\ to\ draw\ the\ glider.\r\n\ Note\ that\ you\ will\ need\ to\ convert\ the\ height\ of\ the\ glider\ above\ the\ floor\ into\r\n\ a\ distance\ down\ from\ the\ top\ of\ the\ screen\ to\ say\ where\ to\ draw\ the\ image.\r\n
+comment3.params=
+comment3.target=double\ getX()
+comment3.text=Return\ the\ current\ x\ position\ of\ the\ glider
+comment4.params=
+comment4.target=double\ getHeight()
+comment4.text=Return\ the\ current\ height\ of\ the\ glider
+comment5.params=sp
+comment5.target=void\ setSpeed(double)
+comment5.text=Change\ the\ speed\ of\ the\ glider
+comment6.params=sp
+comment6.target=void\ GoFaster(double)
+comment7.params=sp
+comment7.target=void\ GoSlower(double)
+comment8.params=
+comment8.target=void\ test()
+comment8.text=\ A\ method\ to\ help\ test\ your\ code\:\ You\ can\ run\ it\ using\ bluej\r\n
+numComments=9
